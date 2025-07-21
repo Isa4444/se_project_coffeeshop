@@ -129,6 +129,11 @@ line-height: 30px;
 }
 
 
+.recipes__iframe {
+  border: none;
+}
+
+
 .recipes__video-caption{
   display: flex;
   justify-content: space-between;
