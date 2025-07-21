@@ -93,7 +93,7 @@ line-height: 30px;
   left: -50px;
 }
 
-.nav__links {
+.nav__link {
   display: flex;
   gap: 20px;
   list-style-type: none;
