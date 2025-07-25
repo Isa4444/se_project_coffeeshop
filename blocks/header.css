@@ -11,6 +11,11 @@
 }
 
 
+.serif-page {
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+
 .header {
   padding: 30px 88px 40px;
   background: center / cover no-repeat #fff url(../images/se_project_2_files/background_header.svg);
