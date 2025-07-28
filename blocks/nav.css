@@ -11,10 +11,6 @@
 }
 
 .nav__link {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  margin: 0;
   text-decoration: none;
   color: black;
   font-family: "Inter";
@@ -22,5 +18,19 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
+  transition: opacity 0.3s ease; 
 }
+
+.nav__link:hover {
+  opacity: 0.5; 
+}
+
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+
