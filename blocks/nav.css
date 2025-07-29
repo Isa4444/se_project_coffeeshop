@@ -18,13 +18,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;
 }
 
 .nav__link:hover {
-  opacity: 0.5; 
+  opacity: 0.5;
 }
-
 
 .nav__links {
   display: flex;
@@ -32,5 +31,3 @@
   list-style-type: none;
   margin: 0;
 }
-
-

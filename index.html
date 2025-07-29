@@ -1,149 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Esdras Buelvas">
-  <meta name="description" content="A modern coffee shop website project showcasing design and functionality.">
-  <meta name="keywords" content="Coffee, Shop, Espresso, Bakery, Website, HTML, CSS">
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Esdras Buelvas" />
+    <meta
+      name="description"
+      content="A modern coffee shop website project showcasing design and functionality."
+    />
+    <meta
+      name="keywords"
+      content="Coffee, Shop, Espresso, Bakery, Website, HTML, CSS"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>TripleTen Coffee Shop</title>
-</head>
-<body>
-  <div class="page">
-    <header class="header">
-      <nav class="nav">
+    <title>TripleTen Coffee Shop</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/se_project_2_files/logo_coffeeshop_dark.svg"
+            alt="Triple Teaks Coffeeshot Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#recipes">Recipes</a></li>
+            <li><a class="nav__link" href="#reservation">Book a table</a></li>
+            <li><a class="nav__link" href="#menu">Menu</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span> in the
+          Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
         <img
-          src="./images/se_project_2_files/logo_coffeeshop_dark.svg"
-          alt="Triple Teaks Coffeeshot Logo"
-          class="nav__logo"
-        >
-        <ul class="nav__links">
-          <li><a class="nav__link" href="#recipes">Recipes</a></li>
-          <li><a class="nav__link" href="#reservation">Book a table</a></li>
-          <li><a class="nav__link" href="#menu">Menu</a></li>
-          <li><a class="nav__link" href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <h1 class="header__title">
-        <span class="header__span-accent">Specialty coffee</span> in the Triple Peaks Library
-      </h1>
-      <p class="header__description">
-        Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
-      </p>
-      <img src="./images/se_project_2_files/inside_coffee_shop.png"
-        alt="Inside Coffee Shop"
-        class="header__image"
-      >
-      <div class="header__footer">
-        <div>
-          <p class="header__paragraph">Hours:</p>
-          <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
-          <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          src="./images/se_project_2_files/inside_coffee_shop.png"
+          alt="Inside Coffee Shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
-        <p class="header__paragraph">
-          200 Success Avenue, The Town of Triple Peaks
-        </p>
-      </div>
-    </header>
+      </header>
 
-    <main class="content">
-      <section id="recipes" class="recipes">
-        <h2 class="recipes__title">Recipes</h2>
-        <p class="recipes__subtitle">
-          Check out some recipes we've collected for your home-brewing convenience:
-        </p>
-        <ul class="recipes__videos">
-          <li>
-            <iframe class="recipes__iframe" 
-              src="https://www.youtube.com/embed/j6VlT_jUVPc?si=GCgPx-fc1-KzqJXU"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen>
-            </iframe>
-            <p class="recipes__video-caption"><span>Title</span> <span>Time</span></p>
-          </li>
-          <li>
-            <iframe class="recipes__iframe"
-              width="560"
-              height="315" 
-              src="https://www.youtube.com/embed/st571DYYTR8?si=JfGB1FPDA5d7bZ6T"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen>
-            </iframe>
-            <p class="recipes__video-caption"><span>Title</span> <span>Time</span></p>
-          </li>
-        </ul>
-      </section>
-      <section id="reservation" class="reservation">
-        <h2 class="reservation__title">Book a Table</h2>
-        
-        <form class="reservation__form form">
-        <fieldset class="form__fieldset">
-        <label for="name-input" class="form__label">
-          Name *
-          <input required
-          id="name-input"
-           type="text"
-            class="form__input"
-            placeholder="Name Surname">
-        </label>
+      <main class="content">
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <ul class="recipes__videos">
+            <li>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=GCgPx-fc1-KzqJXU"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">
+                <span>Title</span> <span>Time</span>
+              </p>
+            </li>
+            <li>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=JfGB1FPDA5d7bZ6T"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">
+                <span>Title</span> <span>Time</span>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
 
-                <label 
-                for="guest-input" 
-                class="form__label">
-                  Number of guests*
-          <input 
-          required 
-          id="guest-input"
-          type="number" 
-          class="form__input"
-          min="1"
-          max="8"
-          placeholder="1-8">
-        </label>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  required
+                  id="name-input"
+                  type="text"
+                  class="form__input"
+                  placeholder="Name Surname"
+                />
+              </label>
 
-                <label for="date-input" class="form__label">
-                  Date & time *
-          <input required type="datetime-local" class="form__input" id="date-input">
-        </label>
+              <label for="guest-input" class="form__label">
+                Number of guests*
+                <input
+                  required
+                  id="guest-input"
+                  type="number"
+                  class="form__input"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                />
+              </label>
 
-                <label for="email-input" class="form__label">
-                  Your email *
-          <input 
-          required
-          id="email-input"
-           type="email" 
-           class="form__input"
-           placeholder="email@email.com">
-        </label>
-        </fieldset>
-        
-        
-        <button class="form__button">Book a table</button>
-        <label for="reserve-input" class="form__label form__label_type_checkbox">
-          
-          <input 
-          required
-          id="reserve-input"
-           type="checkbox" 
-           class="form__checkbox"> I agree with the terms of use
-        </label>
-        </form>
-      </section>
-      <section class="menu" id="menu">
-        <h2 class="menu__title">Menu</h2>
-        <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable
-cups. All teas from our collection are $2/cup</p>
- <ul class="menu__cards">
+              <label for="date-input" class="form__label">
+                Date & time *
+                <input
+                  required
+                  type="datetime-local"
+                  class="form__input"
+                  id="date-input"
+                />
+              </label>
+
+              <label for="email-input" class="form__label">
+                Your email *
+                <input
+                  required
+                  id="email-input"
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+
+            <button class="form__button">Book a table</button>
+            <label
+              for="reserve-input"
+              class="form__label form__label_type_checkbox"
+            >
+              <input
+                required
+                id="reserve-input"
+                type="checkbox"
+                class="form__checkbox"
+              />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup
+          </p>
+          <ul class="menu__cards">
             <li class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
@@ -216,7 +247,7 @@ cups. All teas from our collection are $2/cup</p>
           </ul>
         </section>
 
-      <section id="contacts" class="about">
+        <section id="contacts" class="about">
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -233,11 +264,10 @@ cups. All teas from our collection are $2/cup</p>
           </div>
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
+      </main>
 
-      </section>
-    </main>
-
-    <footer class="footer">
+      <footer class="footer">
         <div class="footer__contents">
           <img
             class="footer__logo"
@@ -273,9 +303,7 @@ cups. All teas from our collection are $2/cup</p>
           </div>
         </div>
         <p class="footer__copyright">© 2025 Esdras Buelvas</p>
-     </footer>
-  </div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
-
-
