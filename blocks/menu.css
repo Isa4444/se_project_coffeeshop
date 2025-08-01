@@ -30,13 +30,6 @@
   line-height: 30px;
 }
 
-.menu__title,
-.menu__subtitle {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Inter", Arial, sans-serif;
-}
-
 .menu__cards {
   list-style-type: none;
   display: flex;
